@@ -164,19 +164,19 @@
     padding:1px;
     font-size: .7vw;
     margin-top: 5% ;
-    left: 37%;
+    left: 42%;
     transform: rotate(10deg);
     filter: drop-shadow(5px 3px 4px black);
 }
 .info[data-direction ="left"]{
     width: 30vw;
-    left: 30%;
+    left: 36%;
     margin-top: 10%;
     transform: rotate(-3deg);
 }
 .info[data-direction ="right"]{
     width: 30vw;
-    left: 30%;
+    left: 36%;
     margin-top: 10%;
     transform: rotate(3deg);
 }
