@@ -263,8 +263,8 @@
 .table{
     display: table;
     position: relative;
-    width: 100%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 10%;
 }
 .closeBtn{
     width: 1vw;
