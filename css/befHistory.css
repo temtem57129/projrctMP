@@ -264,7 +264,7 @@
     display: table;
     position: relative;
     width: 50%;
-    margin: auto;
+    margin-left: 50%;
 }
 .closeBtn{
     width: 1vw;
