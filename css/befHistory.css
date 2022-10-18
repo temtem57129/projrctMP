@@ -162,15 +162,18 @@
     width: 20vw;
     border-radius: 10px;
     padding:1px;
-    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
     margin-top: 5% ;
     left: 42%;
+    font-weigjt: lighter;
     transform: rotate(10deg);
     filter: drop-shadow(5px 3px 4px black);
 }
 .info[data-direction ="left"]{
-    width: 44vw;
-    left: 29%;
+    width: 58vw;
+    left: 21%;
     margin-top: 10%;
     transform: rotate(-3deg);
 }
