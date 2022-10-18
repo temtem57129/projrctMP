@@ -181,18 +181,7 @@
     transform: rotate(3deg);
 }
 .info[data-direction ="befSukhotext1"]{
-    width: 30vw;
-    left: 28%;
-    font-size: .8vw;
-    margin-top: 5%;
-    transform: rotate(0deg);
-    filter:none;
-    color:#8F663A;
-    background-color: transparent;
-}
-.info[data-direction ="befSukhotext2"]{
-    width: 30vw;
-    left: 28%;
+    width: 100vw;
     font-size: .8vw;
     margin-top: 5%;
     transform: rotate(0deg);
