@@ -182,6 +182,7 @@
 }
 .info[data-direction ="befSukhotext1"]{
     width: 100vw;
+    left: 0;
     font-size: .8vw;
     margin-top: 5%;
     transform: rotate(0deg);
