@@ -262,6 +262,9 @@
 }
 .table{
     display: table;
+    position: relative;
+    width: 50%;
+    margin: auto;
 }
 .closeBtn{
     width: 1vw;
