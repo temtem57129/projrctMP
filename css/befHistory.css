@@ -260,6 +260,9 @@
     justify-content: center;
     vertical-align: middle;
 }
+.table{
+    display: table;
+}
 .closeBtn{
     width: 1vw;
     height: 1vw;
