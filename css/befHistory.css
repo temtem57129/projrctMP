@@ -150,7 +150,7 @@
 .topic_text {
     position: absolute;
     font-size: 1.8vw;
-    transform: rotate(-16.8deg);
+    transform: rotate(-16.8deg) translate(5.25vh, 2vh);
     top:38%;
     left:22%;
 }
