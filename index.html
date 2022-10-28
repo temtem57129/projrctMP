@@ -204,45 +204,6 @@
     </section> 
 
     <!-- ยุคสมัยก่อนสุโขทัย -->
-    <section id="befSukhothai">
-        <div class="info defaultText" data-direction="befSukhotext1">
-            <h1>หลังจากนั้นอณาจักรไทยได้รับอิทธิพลมาจากอินเดีย<br>เกิดเป็นเหรียญเงินตรอกตรา</h1>
-        </div><br><br>
-        <!-- coin -->
-        <div v-for="i in info" class="character_container clickAble" @click="i.status = true" :data-character="i.charater">
-            <img class="character" :src="i.image"/>
-        </div>
-        <!-- info card -->
-        <div class="coin-info" v-for="i in info" v-if="i.status" :activate="i.status">
-            <div class="table-cell">
-                <img class="info-image" :src="i.image"/>
-            </div>
-            <div class="table-cell">
-                <p class="info-text">
-                    {{ i.info }}
-                </p>
-            </div>
-            <div class="closeBtn clickAble" @click="i.status = false"><p style="position: absolute;top: -125%; width: 100%;"> x </p></div> 
-            
-        </div>
-        <div class="table">
-            <div class="info table-cell" data-direction="funancoin">
-                <p>อณาจักรฟูนัน</p>
-            </div>
-            <div class="info table-cell" data-direction="twancoin">
-                <p>อณาจักรทวารวดี</p>
-            </div>
-            <div class="info table-cell" data-direction="srivichaicoin">
-                <p>อณาจักรศรีวิชัย</p>
-            </div>
-        </div>
-        <div class="info defaultText" data-direction="befSukhotext1">
-            <h1>สัญลักษณ์บนเหรียญสื่อถึงความเชื่อทางศาสนาพราหมณ์<br>อำนาจรัฐ กษัตริย์ และความมั่งคั่งอุดมสมบูรณ์</h1>
-        </div>
-    </section>
-    <script src="befSukhothai.js"></script>  
-
-    <!-- ยุคสุโขทัย -->
     <section id="sukhothai" style="position: relative;">
         <img  class="bef_history_bg"src="pic/1.PNG"/>
         <div class="nongsukhothai1">
@@ -253,12 +214,16 @@
         </div>
         <div class="txtbox1">
             <img class='txt1' src="pic/กล่อง-03.svg"/>
+            <div class="centered3">โห พี่พดด้วง<br>อยู่มานานขนาดนี้<br>เลยเหรอคะ</div>
+            
         </div>
         <div class="txtbox2">
             <img class='txt2' src="pic/กล่อง-031.svg"/>
+            <div class="centered4" >ใช้แล้วล่ะ<br>คิดไม่ถึงล่ะสิ!</div>
         </div>
         <div class="txtbox3">   
             <img class='txt3' src="pic/เทป.svg"/>
+            <div class="centered";>เงินตราพดด้วง<br><div class="centered2">สุโขทัย</div></div>
         </div>
         <div class="txt defaultText">
             สมัยสุโขทัยถือว่าเป็นจุดเริ่มต้นของการผลิตเงินตรา<br>
@@ -296,6 +261,7 @@
           </div>
           <div class="txtbox5">
             <img class='txt5' src="pic/กล่อง-04.svg"/>
+            <div class="centered5";>ว๊าว!<br>เปลือกหอยก็ใช้<br>แทนเงินได้หรอเนี่ย</div>
         </div>
         <div class="coin2">
             <img class ='frunc' src="pic/หลังหอย.PNG">
