@@ -1,25 +1,18 @@
 /* before history */
-
+body{
+    width: 100%;
+}
 .bef_history_bg{
     width: 100%;
 }
-.character{
-    width: 100%;
-    height: 100%;
-}
-.character_container{
-    position: relative;
-    width: 25%;
-    left: 25%;
-    transform: scaleX(1);
-    margin-top: -26%;
-}
+
 .character_container[data-character ="axe_wood"]{
     margin-top: 5%;
     left: 20%;
 }
 .character_container[data-character ="meat"]{
     left: 60%;
+    margin-top: -27%;
 }
 .character_container[data-character ="shell"]{
     margin-top: 15%;
@@ -29,6 +22,7 @@
 .character_container[data-character ="nut"]{
     left: 30%;
     width: 20%;
+    margin-top: -25%;
 }
 .character_container[data-character ="bracelet"]{
     margin-top: -14%;
@@ -63,21 +57,21 @@
 }
 .character_container[data-character ="funancoin"]{
     margin-top: 0%;
-    left:15%;
+    left:18%;
     width: 20%;
     transform: scaleX(1) rotate(10deg);
 }
 .character_container[data-character ="twancoin"]{
     margin-top:-21%;
-    left:38.5%;
+    left:41%;
     width: 20%;
     transform: scaleX(1) rotate(10deg);
 }
 .character_container[data-character ="srivichaicoin"]{
-    margin-top:-20%;
-    left:65%;
-    width: 20%;
-    transform: scaleX(1) rotate(-50deg);
+    margin-top:-24%;
+    left:61.5%;
+    width: 27%;
+    z-index: 1; 
 }
 .character_container[data-character ="star1"]{
     position: absolute;
@@ -137,22 +131,18 @@
 }
 .topic {
     position: absolute;
-    color:white;
-    text-align:center;
-    padding-left: 50px;
-    padding-right: 50px;
-    top:5%;
-    left: 43%;
-    font-size: 1vw;
     width: 30%;
+    top: 0%;
+    left: 43%;
     transform: rotate(10deg);
 }
 .topic_text {
     position: absolute;
-    font-size: 1.8vw;
-    transform: rotate(-16.8deg) translate(5.25vh, 2vh);
-    top:38%;
-    left:22%;
+    top: 44%;
+    left: 18%;
+    transform: rotate(-17deg);
+    font-size: 2.4vw;
+    color: #fff;
 }
 .info{
     position: relative;
@@ -166,54 +156,57 @@
     padding-right: 2vw;
     font-size: 2vw;
     margin-top: 5% ;
-    left: 37%;
-    font-weigjt: lighter;
+    margin-left: 37%;
+    font-weight: lighter;
     transform: rotate(10deg);
     filter: drop-shadow(5px 3px 4px black);
 }
 .info[data-direction ="left"]{
     width: 58vw;
-    left: 19%;
+    margin-left: 19%;
     margin-top: 10%;
     transform: rotate(-3deg);
 }
 .info[data-direction ="right"]{
     width: 46vw;
-    left: 25%;
+    margin-left: 25%;
     margin-top: 10%;
     transform: rotate(3deg);
 }
 .info[data-direction ="befSukhotext1"]{
     width: 100vw;
-    left: 0;
-    font-size: .8vw;
+    margin-left: 0;
+    font-size: 2vw;
+    font-weight: bold;
     margin-top: 5%;
     transform: rotate(0deg);
     filter:none;
     color:#8F663A;
     background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
 .info[data-direction ="funancoin"]{
     width: 10vw;
-    left: 18%;
-    font-size: 1vw;
+    left: 25%;
+    font-size: 1.5vw;
     margin-top: -2%;
     transform: rotate(0deg);
     background-color: #6FA764;
 }
 .info[data-direction ="twancoin"]{
-    width: 10vw;
-    left: 42%;
+    width: 12vw;
+    left: 49%;
     margin-top: -4.8%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     transform: rotate(0deg);
     background-color: #6FA764;
 }
 .info[data-direction ="srivichaicoin"]{
-    width: 10vw;
-    left: 68%;
+    width: 12vw;
+    left: 75%;
     margin-top: -4.8%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     transform: rotate(0deg);
     background-color: #6FA764;
 }
@@ -269,4 +262,36 @@
     position: absolute;
     right: 1%;
     top: 1%
+}
+.cointype{
+    left: 2.5vw;
+}
+.plus{
+    position: absolute;
+    left: 82%;
+    top: 47%;
+    width: 4vw;
+    transform: rotate(-16deg);
+}
+.triangle{
+    width: 4vw;
+    position: absolute;
+    left: 26.5vw;
+    top: 58%;
+}
+.triangle[data-arrow="arrow1"]{
+    width: 4vw;
+    position: absolute;
+    left: 49.6vw;
+    top: 58%;
+}
+.triangle[data-arrow="arrow2"]{
+    width: 5vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 55%;
+}
+#befSukhothai .defaultText{
+    font-size: 1.5vw;
+    color: white;
 }
