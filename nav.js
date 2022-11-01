@@ -4,12 +4,12 @@ let nav = new Vue({
         isActivate: false,
         items: [
             {
-                title: "Home Page",
+                title: "หน้าหลัก",
                 color: "#FFC635",
                 to: "#home"
             },
             {
-                title: "STORY",
+                title: "เนื้อเรื่อง",
                 color: "#F1592A",
                 to: "#story"
             },
@@ -45,5 +45,11 @@ let nav = new Vue({
             }
             
         ]
+    },
+    methods:{
+        scrollTo: function(el){
+            let to = document.querySelector(el)
+            to.scrollIntoView();
+        }
     }
 })
